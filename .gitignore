@@ -1,0 +1,42 @@
+# 依赖与构建缓存
+node_modules/
+*.log
+
+# 构建产物（发布到 Releases，不入库）
+dist/
+portable/
+portable2/
+portable3/
+portable4/
+portable5/
+app-release/
+app-release2/
+app-release3/
+app-release4/
+app-release5/
+app-release6/
+app-release7/
+release/
+out/
+build/
+win-unpacked/
+
+# 用户本地数据（题库/错题/统计）
+Data/
+
+# Android 工程
+android/.gradle/
+android/build/
+android/app/build/
+android/local.properties
+android/.idea/
+android/capacitor-cordova-android-plugins/
+# cap sync 生成的 web 资源副本（构建时自动从 dist 拷入）
+android/app/src/main/assets/public/
+
+# 临时文件
+.DS_Store
+Thumbs.db
+.shots/
+# 成品目录（exe 上传到 Releases，不入库）
+dist-app/
